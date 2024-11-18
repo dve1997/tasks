@@ -13,4 +13,4 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve(7), ms));
 }
 
-console.log(asyncEvery(array, 10));
+// console.log(asyncEvery(array, 10));
