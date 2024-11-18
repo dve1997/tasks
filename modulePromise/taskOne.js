@@ -1,4 +1,5 @@
 var parallelPromisesWithLimit = async function (promisesArr, parallelLimit) {
+  const promisesArray = [];
   const results = [];
   let quantityCircles = Math.round(promisesArr.length / 5);
   let counter = 0;
@@ -6,8 +7,11 @@ var parallelPromisesWithLimit = async function (promisesArr, parallelLimit) {
 
   for (let i = 0; i < quantityCircles; i++) {
     for (let i = counter; i < limit; i++) {
-      await promisesArr[i]().then(res => results.push(res));
+      promisesArray.push(promisesArr[i]());
     }
+    const intermediateValue = await Promise.all(promisesArray);
+    promisesArray.length = 0;
+    intermediateValue.forEach(a => results.push(a));
     counter = 5;
     limit += 5;
   }
@@ -47,4 +51,4 @@ async function test(time) {
 }
 
 // Раскомментировать
-// console.log(test(5).then(res => console.log(res)));
+console.log(test(5).then(res => console.log(res)));
