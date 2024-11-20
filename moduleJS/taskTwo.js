@@ -27,4 +27,5 @@ const element = () => {
   });
 };
 
-element();
+// Раскомментировать
+// element();
