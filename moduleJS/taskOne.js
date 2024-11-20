@@ -28,4 +28,5 @@ var duplicate = function (list) {
   return results;
 };
 
-console.log(duplicate(list));
+// Раскомментировать
+// console.log(duplicate(list));

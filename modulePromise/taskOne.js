@@ -50,5 +50,5 @@ async function test(time) {
   return results;
 }
 
-// Раскомментировать
+// Раскомментировать;
 // console.log(test(5).then(res => console.log(res)));
