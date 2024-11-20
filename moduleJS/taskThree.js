@@ -1,4 +1,4 @@
-const name = 'name';
+const name = Symbol('name');
 
 class HiddenPropertiesOne {
   constructor() {
@@ -7,7 +7,8 @@ class HiddenPropertiesOne {
 }
 
 const one = new HiddenPropertiesOne();
-console.log(one);
+// Раскомментировать
+// console.log(one);
 
 class HiddenPropertiesTwo {
   constructor() {
@@ -20,4 +21,5 @@ class HiddenPropertiesTwo {
 }
 
 const two = new HiddenPropertiesTwo();
-console.log(two.getName());
+// Раскомментировать
+// console.log(two.getName());
