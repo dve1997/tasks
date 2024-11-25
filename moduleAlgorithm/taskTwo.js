@@ -8,7 +8,6 @@ function generateParenthesis(n) {
   function backtrack(current, open, close) {
     if (current.length === n * 2) {
       result.push(current);
-      console.log(current);
       return;
     }
 
@@ -24,5 +23,6 @@ function generateParenthesis(n) {
   }
 }
 
-console.log(generateParenthesis(3));
-console.log(generateParenthesis(1));
+// Раскомментировать
+// console.log(generateParenthesis(3));
+// console.log(generateParenthesis(1));
