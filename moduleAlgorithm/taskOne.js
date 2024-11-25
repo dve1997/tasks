@@ -22,6 +22,7 @@ var ValidPalindrome = function (str) {
   return true;
 };
 
-console.log(ValidPalindrome(str1));
-console.log(ValidPalindrome(str2));
-console.log(ValidPalindrome(str3));
+// Раскомментировать
+// console.log(ValidPalindrome(str1));
+// console.log(ValidPalindrome(str2));
+// console.log(ValidPalindrome(str3));
