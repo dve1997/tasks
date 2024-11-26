@@ -1,7 +1,3 @@
-const str1 = 'A man, a plan, a canal: Panama';
-const str2 = 'race a car';
-const str3 = ' ';
-
 var ValidPalindrome = function (str) {
   // Удаляем из строки все кроме букв и цифр
   str = str.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -23,6 +19,6 @@ var ValidPalindrome = function (str) {
 };
 
 // Раскомментировать
-// console.log(ValidPalindrome(str1));
-// console.log(ValidPalindrome(str2));
-// console.log(ValidPalindrome(str3));
+// console.log(ValidPalindrome('A man, a plan, a canal: Panama'));
+// console.log(ValidPalindrome('race a car'));
+// console.log(ValidPalindrome(' '));

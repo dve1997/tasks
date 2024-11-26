@@ -14,6 +14,7 @@ var maximumSubarray = function (nums) {
   return maxSum;
 };
 
-console.log(maximumSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
-console.log(maximumSubarray([1]));
-console.log(maximumSubarray([5, 4, -1, 7, 8]));
+// Раскомментировать
+// console.log(maximumSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+// console.log(maximumSubarray([1]));
+// console.log(maximumSubarray([5, 4, -1, 7, 8]));
