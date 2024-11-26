@@ -16,5 +16,6 @@ var removeDuplicatesfromSortedArrayII = function (nums) {
   return results;
 };
 
-console.log(removeDuplicatesfromSortedArrayII([1, 1, 1, 2, 2, 3]));
-console.log(removeDuplicatesfromSortedArrayII([0, 0, 1, 1, 1, 1, 2, 3, 3]));
+// Раскомментировать
+// console.log(removeDuplicatesfromSortedArrayII([1, 1, 1, 2, 2, 3]));
+// console.log(removeDuplicatesfromSortedArrayII([0, 0, 1, 1, 1, 1, 2, 3, 3]));
