@@ -22,5 +22,6 @@ var bestTimetoBuyandSellStock = function (prices) {
   return results;
 };
 
-console.log(bestTimetoBuyandSellStock([7, 1, 5, 3, 6, 4]));
-console.log(bestTimetoBuyandSellStock([7, 6, 4, 3, 1]));
+// Раскомментировать
+// console.log(bestTimetoBuyandSellStock([7, 1, 5, 3, 6, 4]));
+// console.log(bestTimetoBuyandSellStock([7, 6, 4, 3, 1]));
