@@ -8,8 +8,10 @@ var singleNumberII = function (nums) {
     ones = (ones ^ nums[i]) & ~twos;
     twos = (twos ^ nums[i]) & ~ones;
   }
+
   return ones;
 };
 
-console.log(singleNumberII([2, 2, 3, 2]));
-console.log(singleNumberII([0, 1, 0, 1, 0, 1, 99]));
+// Раскомментировать
+// console.log(singleNumberII([2, 2, 3, 2]));
+// console.log(singleNumberII([0, 1, 0, 1, 0, 1, 99]));
