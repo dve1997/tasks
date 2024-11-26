@@ -13,5 +13,6 @@ var maximumProductSubarray = function (nums) {
   return maxMelt;
 };
 
-console.log(maximumProductSubarray([2, 3, -2, 4]));
-console.log(maximumProductSubarray([-2, 0, -1]));
+// Раскомментировать
+// console.log(maximumProductSubarray([2, 3, -2, 4]));
+// console.log(maximumProductSubarray([-2, 0, -1]));
