@@ -55,7 +55,8 @@ var longestPalindromicSubstring = function (str) {
   return results;
 };
 
-console.log(longestPalindromicSubstring(''));
-console.log(longestPalindromicSubstring('amanaplanacanalpanama'));
-console.log(longestPalindromicSubstring('babad'));
-console.log(longestPalindromicSubstring('cbbd'));
+// Раскомментировать
+// console.log(longestPalindromicSubstring(''));
+// console.log(longestPalindromicSubstring('amanaplanacanalpanama'));
+// console.log(longestPalindromicSubstring('babad'));
+// console.log(longestPalindromicSubstring('cbbd'));
