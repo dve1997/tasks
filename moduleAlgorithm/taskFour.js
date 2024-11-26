@@ -21,6 +21,7 @@ var longestSubstringWithoutRepeatingCharacters = function (str) {
   return results;
 };
 
-console.log(longestSubstringWithoutRepeatingCharacters('abcabcbb'));
-console.log(longestSubstringWithoutRepeatingCharacters('bbbbb'));
-console.log(longestSubstringWithoutRepeatingCharacters('pwwkew'));
+// Раскомментировать
+// console.log(longestSubstringWithoutRepeatingCharacters('abcabcbb'));
+// console.log(longestSubstringWithoutRepeatingCharacters('bbbbb'));
+// console.log(longestSubstringWithoutRepeatingCharacters('pwwkew'));
