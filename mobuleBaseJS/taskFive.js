@@ -10,7 +10,7 @@ var getUniqueValuesWithoutSet = function (array) {
   return results;
 };
 
-console.log(getUniqueValuesWithoutSet([1, 2, 3, 3, 4, 5, 4, 6]));
-console.log(getUniqueValuesWithoutSet([5, 5, 5, 5, 5]));
-console.log(getUniqueValuesWithoutSet([1, 2, 3, 4, 5]));
-console.log(getUniqueValuesWithoutSet([]));
+// console.log(getUniqueValuesWithoutSet([1, 2, 3, 3, 4, 5, 4, 6]));
+// console.log(getUniqueValuesWithoutSet([5, 5, 5, 5, 5]));
+// console.log(getUniqueValuesWithoutSet([1, 2, 3, 4, 5]));
+// console.log(getUniqueValuesWithoutSet([]));
