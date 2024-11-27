@@ -10,5 +10,6 @@ var RotateArray = function (k, nums) {
   return nums;
 };
 
-console.log(RotateArray(3, [1, 2, 3, 4, 5, 6, 7]));
-console.log(RotateArray(2, [-1, -100, 3, 99]));
+// Раскомментировать
+// console.log(RotateArray(3, [1, 2, 3, 4, 5, 6, 7]));
+// console.log(RotateArray(2, [-1, -100, 3, 99]));
