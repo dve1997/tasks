@@ -34,6 +34,7 @@ var integertoRoman = function (num) {
   return results;
 };
 
-console.log(integertoRoman(3));
-console.log(integertoRoman(58));
-console.log(integertoRoman(1994));
+// Раскомментировать
+// console.log(integertoRoman(3));
+// console.log(integertoRoman(58));
+// console.log(integertoRoman(1994));
