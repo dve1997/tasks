@@ -14,6 +14,6 @@ var checkString = function (str) {
   return true;
 };
 
-console.log(checkString('()'));
-console.log(checkString('()[]{}'));
-console.log(checkString('(]'));
+// console.log(checkString('()'));
+// console.log(checkString('()[]{}'));
+// console.log(checkString('(]'));
