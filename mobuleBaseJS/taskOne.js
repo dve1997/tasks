@@ -20,4 +20,4 @@ var stringConversion = function (str) {
   return results;
 };
 
-console.log(stringConversion('AAAABBCCCDDD'));
+// console.log(stringConversion('AAAABBCCCDDD'));
