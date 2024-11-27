@@ -5,6 +5,6 @@ var gettingTheLongestSubstring = function (str) {
     .reverse()[0].length;
 };
 
-console.log(gettingTheLongestSubstring('Hello World'));
-console.log(gettingTheLongestSubstring('   fly me   to   the moon  '));
-console.log(gettingTheLongestSubstring('luffy is still joyboy'));
+// console.log(gettingTheLongestSubstring('Hello World'));
+// console.log(gettingTheLongestSubstring('   fly me   to   the moon  '));
+// console.log(gettingTheLongestSubstring('luffy is still joyboy'));
