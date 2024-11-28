@@ -6,9 +6,9 @@ var gettingArrayWithLargestSum = function (array) {
     .sort((a, b) => a + b)[0];
 };
 
-console.log(
-  gettingArrayWithLargestSum([
-    [2, 3],
-    [-2, 4],
-  ]),
-);
+// console.log(
+//   gettingArrayWithLargestSum([
+//     [2, 3],
+//     [-2, 4],
+//   ]),
+// );
